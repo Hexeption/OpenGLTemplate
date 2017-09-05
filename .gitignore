@@ -1,0 +1,9 @@
+/*
+!/.gitignore
+!/.gitmodules
+!/CMakeLists.txt
+!/source
+!/LICENSE
+!/README.md
+!/Dependencies/glew
+!/Dependencies/glm
