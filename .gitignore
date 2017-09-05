@@ -2,7 +2,7 @@
 !/.gitignore
 !/.gitmodules
 !/CMakeLists.txt
-!/source
+!/src
 !/LICENSE
 !/README.md
 !/Dependencies/glew
