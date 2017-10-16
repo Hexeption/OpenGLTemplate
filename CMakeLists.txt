@@ -11,7 +11,8 @@ link_directories(Dependencies/glew/lib/Release/x64)
 
 include_directories(Dependencies/glm)
 
-file(GLOB SOURCE_FILES src/*.cpp src/*h)
+file(GLOB SOURCE_FILES src/*.cpp src/*.h)
+file(COPY src/shaders/ DESTINATION "${CMAKE_BINARY_DIR}")
 add_executable(OpenGLTemplate ${SOURCE_FILES})
 
 target_link_libraries(OpenGLTemplate  ${OPENGL_LIBRARIES} glfw ${GLFW_LIBRARIES} glew32s opengl32)
